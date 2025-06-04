@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>GitHub Message Board</title>
+  <title>Or300 GitHub Message Board</title>
   <style>
-    body { font-family: sans-serif; max-width: 600px; margin: auto; padding: 20px; }
-    textarea { width: 100%; height: 100px; }
-    input, button { width: 100%; padding: 10px; margin-top: 10px; }
-    .message { border-bottom: 1px solid #ccc; padding: 10px; }
+    body { font-family: Arial, sans-serif; max-width: 600px; margin: 20px auto; }
+    input, textarea, button { width: 100%; padding: 10px; margin-top: 10px; }
+    .message { border-bottom: 1px solid #ccc; padding: 10px 0; }
   </style>
 </head>
 <body>
-  <h2>Post a Message</h2>
-  <input id="name" placeholder="Your Name">
-  <textarea id="content" placeholder="Your Message"></textarea>
-  <button onclick="postMessage()">Post</button>
+  <h1>Message Board for Or300/NORTH</h1>
 
-  <h3>Messages</h3>
-  <div id="messages">Loading...</div>
+  <input id="name" placeholder="Your Name" />
+  <textarea id="message" placeholder="Write your message"></textarea>
+  <button onclick="postMessage()">Post Message</button>
+
+  <h2>Messages</h2>
+  <div id="messages">Loading messages...</div>
 
   <script src="script.js"></script>
 </body>
